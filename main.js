@@ -35,7 +35,7 @@ function getRepos() {
           let visitRepo = document.createElement("a");
           visitRepo.appendChild(document.createTextNode("Visit The repo"));
           visitRepo.setAttribute("target", "_blank");
-          visitRepo.href = ` https:/github.com/${input.value}/${repo.name} `;
+         visitRepo.href = `https://github.com/${input.value}/${repo.name}`;
           repoName.appendChild(visitRepo);
         });
         console.log(repos.length);
