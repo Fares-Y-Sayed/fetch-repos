@@ -2,13 +2,20 @@ let input = document.querySelector("input"),
   btn = document.querySelector(".btn"),
   showData = document.querySelector(".show-data");
 
+
+// set my username as devalt 
+input.value="fares1583"
+
+window.onload = function () {
+  getRepos();
+};
+
 btn.onclick = function () {
   getRepos();
 };
 
 
-// set my username as devalt 
-input.value="fares1583"
+
 function getRepos() {
   if (input.value == "") {
     showData.innerHTML = "<span> Please Write a GitHub Username</span> ";
