@@ -6,6 +6,9 @@ btn.onclick = function () {
   getRepos();
 };
 
+
+// set my username as devalt 
+input.value="fares1583"
 function getRepos() {
   if (input.value == "") {
     showData.innerHTML = "<span> Please Write a GitHub Username</span> ";
