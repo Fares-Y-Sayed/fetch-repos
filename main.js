@@ -4,7 +4,7 @@ let input = document.querySelector("input"),
 
 
 // set my username as devalt 
-input.value="fares1583"
+input.value="Fares-Y-Sayed"
 
 window.onload = function () {
   getRepos();
